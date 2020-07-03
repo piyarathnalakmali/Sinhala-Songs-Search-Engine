@@ -31,4 +31,4 @@ The dataset for the project was scraped from the website [Sinhala Song Book](htt
 * Faceting
 
 ## Flow diagram of search query generation
-![](/Flow diagram of query generation.jpeg)
+![](https://github.com/piyarathnalakmali/Sinhala-Songs-Search-Engine/blob/master/Flow%20diagram%20of%20query%20generation.jpeg?raw=true)
