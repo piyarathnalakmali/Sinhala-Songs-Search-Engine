@@ -10,7 +10,7 @@ To start the search engine follow the instructions given below.
 5. Go to http://localhost:5000 to experience
 
 ## Data
-The dataset for the project was scraped from the website [Sinhala Song Book](https://sinhalasongbook.com/). The search engine contains a collection of 817 songs. Each song in the preprocessed data set has 7 metadata fields except lyrics.
+The dataset for the project was scraped from the website [Sinhala Song Book](https://sinhalasongbook.com/). Some fields in the original dataset are removed and some fields are transated to Sinhala language while preprocessing. The search engine contains a collection of 817 songs. Each song in the preprocessed data set has 7 metadata fields except lyrics.
 - Title
 - list of artists
 - list of writers
@@ -19,12 +19,16 @@ The dataset for the project was scraped from the website [Sinhala Song Book](htt
 - beat 
 - list of genres. 
 
-## Supported query types
+## Supported features
 * Search a song by any field
   - title - කුරුටු ගෑ ගී
   - artist name - නන්දා මාලනී ගැයූ ගීත
   - beat - 6/8 සින්දු
   - genre - වත්මන් ගීත
 * Range queries - හොඳම සින්දු 10
-* Synnonyms - මව් ගුණ ගීත
+* Synnonyms support - මව් ගුණ ගීත
 * Misspelled queries - කරුනරත දිවුල්ගනේ ගැයූ ගීත
+* Faceting
+
+## Flow diagram of search query generation
+![](/Flow diagram of query generation.jpeg)
